@@ -20,7 +20,7 @@ const Header = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down('md'))
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: '#26262617', zIndex: 1000, boxShadow: 'none', borderRadius: '40px', margin: '20px', padding: '5px', width: '98%', border: '1px solid #424242' }} className='w-11/12'>
+    <AppBar position="fixed" sx={{ backgroundColor: '#000', zIndex: 1000, boxShadow: 'none', borderRadius: '40px', margin: '20px', padding: '5px', width: '98%', border: '1px solid #424242' }}>
       <Toolbar className='flex justify-between items-center'>
         {/* Logo */}
         <Box className="flex items-center space-x-2 w-5/12">
